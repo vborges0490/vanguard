@@ -217,13 +217,6 @@ python-dateutil==2.9.0.post0
     #   jupyter-client
 python-json-logger==2.0.7
     # via jupyter-events
-pywin32==306
-    # via jupyter-core
-pywinpty==2.0.13
-    # via
-    #   jupyter-server
-    #   jupyter-server-terminals
-    #   terminado
 pyyaml==6.0.1
     # via jupyter-events
 pyzmq==25.1.2
