@@ -269,6 +269,7 @@ soupsieve==2.5
     # via beautifulsoup4
 stack-data==0.6.3
     # via ipython
+statsmodels
 terminado==0.18.1
     # via
     #   jupyter-server
