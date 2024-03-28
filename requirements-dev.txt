@@ -65,21 +65,28 @@ numpy==1.26.4
     #   contourpy
     #   matplotlib
     #   pandas
+    #   patsy
     #   pyarrow
     #   pydeck
+    #   scipy
     #   seaborn
+    #   statsmodels
     #   streamlit
 packaging==24.0
     # via
     #   matplotlib
     #   plotly
+    #   statsmodels
     #   streamlit
 pandas==2.2.1
     # via
     #   -r requirements-dev.in
     #   altair
     #   seaborn
+    #   statsmodels
     #   streamlit
+patsy==0.5.6
+    # via statsmodels
 pillow==10.2.0
     # via
     #   matplotlib
@@ -119,12 +126,18 @@ rpds-py==0.18.0
     # via
     #   jsonschema
     #   referencing
+scipy==1.12.0
+    # via statsmodels
 seaborn==0.13.2
     # via -r requirements-dev.in
 six==1.16.0
-    # via python-dateutil
+    # via
+    #   patsy
+    #   python-dateutil
 smmap==5.0.1
     # via gitdb
+statsmodels==0.14.1
+    # via -r requirements-dev.in
 streamlit==1.22.0
     # via -r requirements-dev.in
 tenacity==8.2.3
